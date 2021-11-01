@@ -1,0 +1,153 @@
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/*** DEVICE ***/
+
+  #p_device div.espConfig > div{
+    margin:5px 0;
+  }
+
+  #p_device #espDevRefresh{
+    padding: 0 3px;
+  }
+
+  #p_device button, #p_device button:focus{
+    padding: 3px 0;
+    width: 100%;
+  }
+
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/*** CHANNEL ***/
+
+  /*** MODE ***/  
+  div#p_channel div#devMode{
+    font-size: 0.9rem;
+  }
+
+  div#p_channel div#devMode button{
+    margin-left: 5px;
+    line-height: 14px;
+    padding: 2px 16px;
+    transition: background-color 0.5s, color 0.5s;
+  }
+
+
+  /*** BT SELECT ***/  
+  div#p_channel div#espChan{
+    margin: 10px auto 0 auto;
+    width: 100%;
+  }
+
+  div#p_channel .btChan{
+    display: inline-block;
+    width: 12.5%;
+    padding: 2px;
+  }
+
+  div#p_channel div#espChan button{
+    width: 100%;
+    height: 30px;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    margin:0 ;  
+    font-weight: bold;
+    padding: 0;
+    background-color: #666;
+    transition: background-color 0.5s, color 0.5s;
+  }
+
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/*** FILTER MIDI IN***/
+
+div.p_filter div.esptip div{
+  float: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 49%;
+  font-weight: bold;
+}
+div.p_filter input[checkbox]{
+  transition: all ease 0.3s; 
+}
+
+
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+/*** PANEL CONSOLE ***/
+#p_konsole > div{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#p_konsole div#ctrlEngine button{
+  margin-top: 10px;
+  width: 80%;
+  padding: 8px;
+}
+
+/*** CONSOLE MIDI IN ***/
+
+table#konsole{
+  font-size: 12px;
+  border-spacing:0;
+  width:100%;
+  margin-top: 20px;
+}
+
+table#konsole th{
+  height: 20px;
+  text-align: left;
+  padding: 10px 5px;
+  background-color: #AAA;
+  color: #000;
+  transition: opacity 0.5s;
+  opacity: 0.5;
+}
+
+table#konsole th.action{
+  text-align: right;
+  min-width: 228px;
+}
+table#konsole th.action > *{
+  margin-right: 20px;
+}
+
+table#konsole td{
+  vertical-align: top;
+  padding: 5px;
+  border-bottom: 1px solid #444;
+}
+table#konsole tr:hover td{
+  background-color: #CCC;
+}
+
+
+table#konsole .nbr{
+  width: 1%;
+}
+table#konsole .cpt{
+  width: 1%;
+}
+table#konsole .dev{
+  width: 20%;
+}
+table#konsole .cha{
+  width: 5%;
+}
+table#konsole .tip{
+  width: 20%;
+}
+
+table#konsole td > div{
+  display: inline-block;
+  min-width:100px;
+  margin-right: 10px;
+}
+
+
