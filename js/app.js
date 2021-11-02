@@ -1,6 +1,6 @@
 var WM;
 var APP;
-var displayNpk=true;
+var displayNpk=false;
 
 /******* ONLOAD *******/
 $(function() {
