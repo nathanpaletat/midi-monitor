@@ -85,6 +85,19 @@ function initApp(){
 		$("#midiCheckerModal").hide();
 		$("main").show();
 	}, 10);
+
+
+
+	$.ajax({
+		method: "POST",
+		url: "js/some.php",
+		data: { name: "John", location: "Boston" }
+	})
+	.done(function( msg ) {
+		alert( "Data Saved: " + msg );
+	});
+
+
 }
 
 function npk(x){
