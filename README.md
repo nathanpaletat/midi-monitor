@@ -3,6 +3,8 @@ A web midi monitor for incoming messages.
 
 Use it here : https://nathanpaletat.github.io/midi-monitor/
 
+![N|Solsid](https://nathanpaletat.github.io/midi-monitor/screen.jpg)
+
 ## Features
 
 #### Devices
