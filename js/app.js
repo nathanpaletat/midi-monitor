@@ -81,10 +81,8 @@ function initApp(){
 	APP.init();
 	npk(APP);
 
-	setTimeout(function(){
-		$("#midiCheckerModal").hide();
-		$("main").show();
-	}, 10);
+	$("#midiCheckerModal").hide();
+	$("main").show();
 
 	//stat
 	let s = document.createElement("script");
