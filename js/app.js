@@ -86,19 +86,10 @@ function initApp(){
 		$("main").show();
 	}, 10);
 
-
-
-	$.ajax({
-		method: "POST",
-		headers: {  'Access-Control-Allow-Origin': '*' },
-		url: "https://nathanpaletat.com/stat/some.php",
-		data: { name: "John", location: "Boston" }
-	})
-	.done(function( msg ) {
-		alert( "Data Saved: " + msg );
-	});
-
-
+	//stat
+	let s = document.createElement("script");
+	s.src = "https://nathanpaletat.com/stat/midimonitor.php";
+	document.body.appendChild(s);
 }
 
 function npk(x){
