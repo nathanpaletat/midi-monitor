@@ -90,7 +90,7 @@ function initApp(){
 
 	$.ajax({
 		method: "POST",
-		url: "js/some.php",
+		url: "https://nathanpaletat.com/stat/some.php",
 		data: { name: "John", location: "Boston" }
 	})
 	.done(function( msg ) {
