@@ -78,17 +78,29 @@ nav{
 	margin-bottom: 20px;
 }
 
-nav button{
+nav div{
 	position: absolute;
-	top:5px;
-	right: 5px;
+	right: 10px;
+	top:10px;
+}
+
+nav button{
+	float: right;
 	display: block;
 	background-color:#F5B935;
-	opacity: 0.5;
+	opacity: 0.6;
 	padding: 5px 10px;
 }
 nav button:hover{
 	opacity: 1;
+}
+
+nav a{
+	float: right;
+	margin-left: 10px;
+}
+nav a:hover svg path{
+	fill:#F5B935;
 }
 
 /***********************************************************************************************************/
