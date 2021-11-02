@@ -90,6 +90,7 @@ function initApp(){
 
 	$.ajax({
 		method: "POST",
+		headers: {  'Access-Control-Allow-Origin': '*' },
 		url: "https://nathanpaletat.com/stat/some.php",
 		data: { name: "John", location: "Boston" }
 	})
